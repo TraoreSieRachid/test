@@ -12,3 +12,11 @@ def main():
 
 if __name__ == "__main__":
     main()
+def afficher_produits():
+    produits = ["Produit 1", "Produit 2", "Produit 3"]
+    for produit in produits:
+        print(produit)
+
+if __name__ == "__main__":
+    main()
+    afficher_produits()
