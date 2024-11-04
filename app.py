@@ -6,3 +6,9 @@ def predire_prix( superficie, nb_chambres ):
 if __name__ == "__main__":
     prix = predire_prix(100, 3)
     print(f"Le prix prédit est : {prix}")
+
+def main():
+    print("Bienvenue dans l'application de la boutique !")
+
+if __name__ == "__main__":
+    main()
